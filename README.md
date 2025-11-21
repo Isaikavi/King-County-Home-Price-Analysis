@@ -1,6 +1,8 @@
 A Machine Learning Project for Real Estate Valuation
-Objective
-  Analyze residential real estate in King County, Washington to identify the attributes that most influence house prices and build predictive models to estimate market value for a Real Estate Investment Trust (REIT). 
+
+Objectives
+  1. Analyze residential real estate in King County, Washington to identify the attributes that most influence house prices
+  2. Build predictive models to estimate market value for a Real Estate Investment Trust (REIT). 
 
 Dataset
   Home sales from May 2014 to May 2015, including attributes such as square footage, bedrooms, floors, condition, grade, location, and more.
@@ -31,5 +33,5 @@ Key Results
   Ridge Regression	                            ~0.69–0.73	          Strong generalization; reduces overfitting.
 
 Conclusion
-  Machine learning can support real estate investment decisions by revealing the key drivers of price and providing accurate price predictions.
-  Polynomial models offered the best results, and location-based features proved to be the most critical for valuation.
+  1. Machine learning can support real estate investment decisions by revealing the key drivers of price and providing accurate price predictions.
+  2. Polynomial models offered the best results, and location-based features proved to be the most critical for valuation.
