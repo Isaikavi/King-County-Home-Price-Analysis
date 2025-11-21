@@ -25,12 +25,11 @@ Key Results
   2. Above-ground living space (sqft_above) is positively correlated with price.
   3. Uncommon floor counts (e.g., 3.5, 4 floors) represent unique or unusual properties.
 
-  Model Performance
-  Model	                                        R² Score	            Notes
-  Simple Linear Regression (sqft_living only)	  ~0.50	                Square footage alone is not enough.
-  Multiple Linear Regression (11 features)	    ~0.70	                Adding more features greatly improves accuracy.
-  Polynomial Pipeline	                          ~0.75–0.80	          Captures complex relationships; best performance.
-  Ridge Regression	                            ~0.69–0.73	          Strong generalization; reduces overfitting.
+  Model Performance with R^2 values
+  1. Simple Linear Regression (sqft_living only)	  ~0.50	                Square footage alone is not enough.
+  2. Multiple Linear Regression (11 features)	      ~0.70	                Adding more features greatly improves accuracy.
+  3. Polynomial Pipeline	                          ~0.75–0.80	          Captures complex relationships; best performance.
+  4. Ridge Regression	                              ~0.69–0.73	          Strong generalization; reduces overfitting.
 
 Conclusion
   1. Machine learning can support real estate investment decisions by revealing the key drivers of price and providing accurate price predictions.
